@@ -1,0 +1,24 @@
+{
+  "target": "https://www.facebook.com",
+  "timestamp": "2026-06-15 15:18:52",
+  "vulnerabilities": [
+    {
+      "name": "Form Detected",
+      "severity": "Low",
+      "description": "Found 1 form(s) - potential input validation issues",
+      "recommendation": "Ensure proper input sanitization."
+    },
+    {
+      "name": "Potential XSS Vector",
+      "severity": "Medium",
+      "description": "Page may be vulnerable to reflected XSS",
+      "recommendation": "Implement output encoding."
+    }
+  ],
+  "summary": {
+    "critical": 0,
+    "high": 0,
+    "medium": 1,
+    "low": 1
+  }
+}

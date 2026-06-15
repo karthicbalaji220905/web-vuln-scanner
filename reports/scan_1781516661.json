@@ -1,0 +1,24 @@
+{
+  "target": "https://chatgpt.com/",
+  "timestamp": "2026-06-15 15:14:20",
+  "vulnerabilities": [
+    {
+      "name": "Missing Security Headers",
+      "severity": "Medium",
+      "description": "Missing headers: Content-Security-Policy, X-XSS-Protection",
+      "recommendation": "Add proper security headers."
+    },
+    {
+      "name": "Potential XSS Vector",
+      "severity": "Medium",
+      "description": "Page may be vulnerable to reflected XSS",
+      "recommendation": "Implement output encoding."
+    }
+  ],
+  "summary": {
+    "critical": 0,
+    "high": 0,
+    "medium": 2,
+    "low": 0
+  }
+}

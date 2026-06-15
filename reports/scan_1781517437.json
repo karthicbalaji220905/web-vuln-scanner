@@ -1,0 +1,18 @@
+{
+  "target": "https:// https://www.coursera.org",
+  "timestamp": "2026-06-15 15:27:17",
+  "vulnerabilities": [
+    {
+      "name": "Connection Error",
+      "severity": "High",
+      "description": "HTTPSConnectionPool(host='%20https', port=443): Max retries exceeded with url: /www.coursera.org (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021381FBD950>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))",
+      "recommendation": "Check URL and network connectivity."
+    }
+  ],
+  "summary": {
+    "critical": 0,
+    "high": 1,
+    "medium": 0,
+    "low": 0
+  }
+}
